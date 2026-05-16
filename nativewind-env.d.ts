@@ -2,3 +2,8 @@
 
 // NOTE: This file should be committed with your source code so TypeScript can
 // understand NativeWind's React Native className props.
+
+declare module "*.css" {
+  const content: string;
+  export default content;
+}
